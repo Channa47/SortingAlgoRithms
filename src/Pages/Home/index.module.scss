@@ -1,0 +1,52 @@
+.selectContainer {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  flex-wrap: wrap;
+  padding: 10px;
+  gap: 10px;
+}
+.mainContainer {
+  padding: 20px;
+}
+.title {
+  text-decoration: underline;
+}
+.footer {
+  display: flex;
+  gap: 10px;
+}
+.inputArray {
+  margin: 0 auto;
+  display: block;
+  text-align: left;
+  width: fit-content;
+  font-size: larger;
+}
+.animationContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+.homeFooter {
+  position: fixed;
+  bottom: 10px;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  width: 90%;
+  gap: 10px;
+  padding: 10px;
+}
+.name {
+  margin-left: 20px;
+  padding: 10px;
+}
+.links {
+  display: flex;
+  justify-content: end;
+  align-items: center;
+  gap: 20px;
+  box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+}

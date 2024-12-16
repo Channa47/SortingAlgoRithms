@@ -1,0 +1,38 @@
+.inputContainer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.input {
+  padding: 8px;
+  font-size: 16px;
+  width: 250px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  width: 25px;
+}
+
+.button,
+.randomButton {
+  padding: 10px 15px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 4px;
+  border: none;
+}
+
+.button {
+  background-color: #4caf50;
+  color: white;
+}
+
+.randomButton {
+  background-color: #f44336;
+  color: white;
+}
+
+button:focus {
+  outline: none;
+}
